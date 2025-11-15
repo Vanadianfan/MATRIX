@@ -62,3 +62,8 @@ template <typename type> class Square_Matrix; // 任意次元正方行列空間�
   **余因子行列と行列式**を用いて生成した**逆行列**を返す。
 
 ※ クラス名・関数名は提示どおりの表記（`Square_Maxtrix` / `solve_liner_equations` / `cofator_matrix` 等）をそのまま記しています。
+
+## テスト方法
+
+1. `matrix.h` の保存位置を確認し、それに応じて `matrix.cpp` でインクルードされるヘッドファイルを `#include <matrix.h>` または `#include "matrix.h"` のどちらかに修正する。
+2. `-std=c++11` 以上でコンパイルすると実行可能。
