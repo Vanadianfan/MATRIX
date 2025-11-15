@@ -17,7 +17,7 @@ class Super;                       // 任意桁整数のクラス
 class frac;                        // 任意精度有理数（分数表現）のクラス
 template <typename type> class VectorX;        // 任意次元ベクトル空間のテンプレートクラス
 template <typename type> class Matrix;         // 任意次元行列空間のテンプレートクラス
-template <typename type> class Square_Maxtrix; // 任意次元正方行列空間のテンプレートクラス
+template <typename type> class Square_Matrix; // 任意次元正方行列空間のテンプレートクラス
 ```
 
 
